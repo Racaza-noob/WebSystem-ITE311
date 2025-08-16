@@ -24,12 +24,21 @@ class Database extends Config
      *
      * @var array<string, mixed>
      */
+<<<<<<< HEAD
      public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
         'username'     => 'root',        // <-- Set your MySQL username here
         'password'     => '',            // <-- Set your MySQL password here (empty by default for XAMPP)
         'database'     => 'lms_racaza',
+=======
+    public array $default = [
+        'DSN'          => '',
+        'hostname'     => 'localhost',
+        'username'     => '',
+        'password'     => '',
+        'database'     => '',
+>>>>>>> 0eaad17724e7a04dfd87c773e86b49110d00f05d
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -50,7 +59,11 @@ class Database extends Config
             'time'     => 'H:i:s',
         ],
     ];
+<<<<<<< HEAD
 // ...existing code.
+=======
+
+>>>>>>> 0eaad17724e7a04dfd87c773e86b49110d00f05d
     //    /**
     //     * Sample database connection for SQLite3.
     //     *
